@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tasks"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/tasks" />
+        <item
+            android:id="@+id/today_tasks"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="@string/today" />
+        <item
+            android:id="@+id/completed"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/completed" />
+    </group>
+
+    <item android:title="Другое">
+        <menu>
+            <item
+                android:id="@+id/about_me"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="@string/about_app" />
+        </menu>
+    </item>
+
+</menu>
